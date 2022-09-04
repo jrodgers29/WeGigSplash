@@ -1,0 +1,180 @@
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  background-color: #591FFF;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+  position: relative;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.h2-4line {font-size: 2.5rem;
+}
+h3 {
+  font-family: Montserrat;
+  font-weight: 900;
+  size: 1.5rem;
+  padding: 2% 5%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0 18px;
+  text-align: right
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 100;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0
+}
+
+/* Title Image */
+.iphone-img {
+  transform: rotate(25deg);
+  width: 15%;
+  position: absolute;
+  right: 300px;
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4%;
+}
+
+.icon {
+  color: #C3AAFF;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #591FFF;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #C3AAFF;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press section */
+#press {
+  background-color: #C3AAFF;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  Margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.sign-up {
+  margin-top: 56px;
+}
+
+/* Call to action section */
+
+#cta {
+  background-color: #591FFF;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-h3{
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 5rem;
+
+}
+
+/* footer section  */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+/* Mobile Design */
+
+@media (max-width: 992px) {
+  #title{
+    text-align: center;
+  }
+  .iphone-img{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
